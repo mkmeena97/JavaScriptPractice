@@ -8,8 +8,9 @@ let nm="mahendra"
 let roll=null
 let isloggedIn=true
 
+// typeof => to check datatype
 
-/**
+/** ## Primitive Data Types(Value Type)
  * 1: Number
  * 2: bigint
  * 3: string = ""
@@ -17,8 +18,34 @@ let isloggedIn=true
  * 5: null =>it is a datatype javascript (actually it is a standalone value)
  * 6: undefined => value is not assigned yet
  * 7: symbol => for uniquess it will use mostly i.e in react
- * 8: typeof => to check type
  */
+
 console.log(typeof nm)
 console.log(typeof roll)
 console.log(typeof undefined)
+
+console.log("*************")
+const id = Symbol('123')
+const id2 = Symbol('123')
+console.log(id===id2)
+
+/**## Non-Primitive datatype(Refrence type)
+ * 1: Array
+ * 2: Objects
+ * 3: Functions
+ */
+
+const marvel = ["ironman", "hulk", "thor", "captain Marvel"]
+
+let myObj = {
+    name:"mahndra",
+    age:"26"
+}
+
+const myFunction = function(){
+    console.log("Hello Javascript")
+}
+
+console.log(typeof marvel)
+console.log(typeof myObj)
+console.log(typeof myFunction)
