@@ -1,6 +1,6 @@
 # JavaScriptPracti
 take helps from tc39 or MDM documentation(by mozila )
-<p> All standard built-in <span>copy operations</span> with any javascript objects create <h2>shallow copys</h2>, rather than deep copies. </p>
+<p> All standard built-in copy operations with any javascript objects create shallow copys, rather than deep copies. </p>
 
 <h1>Shallow Copy</h1>
     <Ul>
